@@ -13,24 +13,10 @@ public final class InvalidURIException extends Exception {
 	 */
 	private static final long serialVersionUID = 887454041205809835L;
 	/**
-	 * The message string
-	 */
-	private String m_sMessage;
-	
-	/**
 	 * The class constructor
 	 * @param s the invalid URI
 	 */
 	public InvalidURIException(String s) {
-		m_sMessage = "Invalid URI: " + s;
-	}
-
-	/**
-	 * @return the error message
-	 * @see java.lang.Throwable#getMessage()
-	 */
-	@Override
-	public String getMessage() {
-		return m_sMessage;
+		super("Invalid URI: " + s);
 	}
 }

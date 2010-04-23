@@ -1,2 +1,9 @@
+edu.utdallas.hadooprdf.commons
+edu.utdallas.hadooprdf.conf
+edu.utdallas.hadooprdf.lib.mapred.io.output
+edu.utdallas.hadooprdf.lib.mapred.serialization.conversion
+edu.utdallas.hadooprdf.main
+edu.utdallas.hadooprdf.preprocessing.serialization
+edu.utdallas.hadooprdf.preprocessing.serialization.test
 edu.utdallas.hadooprdf.rdf.uri.prefix
 edu.utdallas.hadooprdf.rdf.uri.prefix.test
